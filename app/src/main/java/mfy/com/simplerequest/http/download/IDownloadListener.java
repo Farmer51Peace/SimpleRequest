@@ -1,4 +1,7 @@
 package mfy.com.simplerequest.http.download;
 
-public class IDownloadListener {
+import mfy.com.simplerequest.http.interfaces.IDataListener;
+
+public interface IDownloadListener extends IDataListener{
+
 }

@@ -1,4 +1,10 @@
 package mfy.com.simplerequest.http.interfaces;
 
-public class IHttpService {
+import mfy.com.simplerequest.http.RequestHolder;
+
+public interface IHttpService {
+
+    void setRequestHolder(RequestHolder holder);
+
+    void execute();
 }

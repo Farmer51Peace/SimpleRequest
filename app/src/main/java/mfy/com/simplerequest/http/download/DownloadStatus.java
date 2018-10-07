@@ -1,10 +1,10 @@
-package com.example.administrator.volleydongnao.http.download;
+package mfy.com.simplerequest.http.download;
 
 /**
  * Created by Administrator on 2017/1/16 0016.
  */
 
-public enum  DownloadStatus {
+public enum DownloadStatus {
     waitting(0),
 
     starting(1),
@@ -19,7 +19,7 @@ public enum  DownloadStatus {
     ;
 
     private int value;
-    private   DownloadStatus(int value)
+    private DownloadStatus(int value)
     {
         this.value=value;
     }

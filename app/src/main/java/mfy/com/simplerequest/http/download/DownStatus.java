@@ -1,4 +1,4 @@
 package mfy.com.simplerequest.http.download;
 
-public class DownStatus {
+public enum  DownStatus {
 }
